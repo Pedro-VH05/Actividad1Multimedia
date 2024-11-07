@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
 
 class IconosPantalla extends StatelessWidget {
+  const IconosPantalla({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Iconos'),
-        backgroundColor: Color(0xFF76e9ff),
+        title: const Text('Iconos'),
+        backgroundColor: const Color(0xFF76e9ff),
       ),
-      backgroundColor: Color(0xFFdaffff),
-      body: Center(
+      backgroundColor: const Color(0xFFdaffff),
+      body: const Center(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[

@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 
 class FotosColumna extends StatelessWidget {
+  const FotosColumna({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Fotos en Columna'),
-        backgroundColor: Color(0xFF76e9ff),
+        title: const Text('Fotos en Columna'),
+        backgroundColor: const Color(0xFF76e9ff),
       ),
-      backgroundColor: Color(0xFFdaffff),
+      backgroundColor: const Color(0xFFdaffff),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [

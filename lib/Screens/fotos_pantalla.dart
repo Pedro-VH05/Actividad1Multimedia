@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 
 class FotosPantalla extends StatelessWidget {
+  const FotosPantalla({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Fotos en Fila'),
-        backgroundColor: Color(0xFF76e9ff),
+        title: const Text('Fotos en Fila'),
+        backgroundColor: const Color(0xFF76e9ff),
       ),
-      backgroundColor: Color(0xFFdaffff),
+      backgroundColor: const Color(0xFFdaffff),
       body: Center(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
